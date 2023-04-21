@@ -1,18 +1,20 @@
 const quizData = [
   {
-    question: "How old is Florin?",
-    a: "10",
-    b: "40",
-    c: "30",
-    d: "110",
+    question:
+      "When an operator’s value is NULL, the typeof returned by the unary operator is:",
+    a: "Boolean",
+    b: "Undefined",
+    c: "Object",
+    d: "Integer",
     correct: "c",
   },
   {
-    question: "What is the most used programming language?",
-    a: "java",
-    b: "c",
-    c: "Python",
-    d: "Javascript",
+    question:
+      "Which function is used to serialize an object into a JSON string in Javascript?",
+    a: "stringfy",
+    b: "parse",
+    c: "convert",
+    d: "None of these",
     correct: "a",
   },
   {
@@ -32,12 +34,12 @@ const quizData = [
     correct: "a",
   },
   {
-    question: "What year was Javascript launched?",
-    a: "1996",
-    b: "1995",
-    c: "1994",
-    d: "none of the above",
-    correct: "b",
+    question: "Which of the following is not a Javascript framework?",
+    a: "Node",
+    b: "Vue",
+    c: "React",
+    d: "Cassandra",
+    correct: "d",
   },
 ];
 const quiz = document.getElementById("quiz");
